@@ -6,7 +6,7 @@ $array = [
     2 => 'dois'
 ];
 
-var_dump ($array);
+var_dump ($array); // Dar informações detalhadas sobre o array
 
 foreach ($array as $numeral => $nomeNumero) {
     echo "$numeral em portugês é: $nomeNumero" . PHP_EOL;
