@@ -28,6 +28,14 @@ $alunos2024 = $alunos2023 + $novosAlunos;
 // Tira o colchete dos arrays, bom para adicionar informações no meio
 
 $alunoss = [...$alunos2023, 'Lucas Silva', ...$novosAlunos];
+array_push ($alunoss, 'Alice', 'Bob', 'Charlie'); // Adiciono elementos ao final da array
+$alunoss [] = 'Luiz'; // Adiciono um elemento ao final do array
+
+array_unshift ($alunoss, 'Stephany', 'Rafaela'); // Adiciono no inicio do array
+
+echo array_shift ($alunoss) . PHP_EOL; // Pega o primeiro elemento do array e retorna somente ele
+
+echo array_pop ($alunoss) . PHP_EOL; //Remove o último elemento do array e apresenta ele
 
 var_dump ($alunoss);
 
